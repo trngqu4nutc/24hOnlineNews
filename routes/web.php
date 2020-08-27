@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    dd("hello home");
+Route::get('/test', function () {
+    return view('test');
 });
+
+//Route::prefix('/admin')->group(function (){
+//
+//});
