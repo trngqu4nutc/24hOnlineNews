@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe913be-8335-497d-acaf-20af55733ac4" name="Default Changelist" comment="add migration - config relationships by Eloquent">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5fe913be-8335-497d-acaf-20af55733ac4" name="Default Changelist" comment="add migration - config relationships - Eloquent">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +180,7 @@
       <workItem from="1598450791805" duration="1443000" />
       <workItem from="1598452369788" duration="166000" />
       <workItem from="1598452608934" duration="438000" />
-      <workItem from="1598504279198" duration="384000" />
+      <workItem from="1598504279198" duration="1347000" />
     </task>
     <task id="LOCAL-00001" summary="test1">
       <created>1598453707938</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598503762870</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add migration - config relationships - Eloquent">
+      <created>1598504681541</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598504681541</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +233,8 @@
     <MESSAGE value="test1" />
     <MESSAGE value="cmt gitignore" />
     <MESSAGE value="add migration - config relationships by Eloquent" />
-    <option name="LAST_COMMIT_MESSAGE" value="add migration - config relationships by Eloquent" />
+    <MESSAGE value="add migration - config relationships - Eloquent" />
+    <option name="LAST_COMMIT_MESSAGE" value="add migration - config relationships - Eloquent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1598451091453">
@@ -262,10 +269,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="125" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1598455725238" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598503791752">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598504745003">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598455794540" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1598503791752" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1598504745003" />
   </component>
 </project>
