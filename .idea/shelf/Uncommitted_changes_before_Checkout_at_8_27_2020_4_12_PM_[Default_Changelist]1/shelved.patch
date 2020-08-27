@@ -1,0 +1,17 @@
+Index: .idea/inspectionProfiles/Project_Default.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"InspectionProjectProfileManager\">\r\n  <profile version=\"1.0\">\r\n    <option name=\"myName\" value=\"Project Default\" />\r\n    <inspection_tool class=\"SpellCheckingInspection\" enabled=\"false\" level=\"TYPO\" enabled_by_default=\"false\">\r\n      <option name=\"processCode\" value=\"true\" />\r\n      <option name=\"processLiterals\" value=\"true\" />\r\n      <option name=\"processComments\" value=\"true\" />\r\n    </inspection_tool>\r\n  </profile>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/inspectionProfiles/Project_Default.xml	(revision 74393ad61a02558f7819de5ac8e3444ebad75a68)
++++ .idea/inspectionProfiles/Project_Default.xml	(date 1598510696410)
+@@ -1,6 +1,7 @@
+ <component name="InspectionProjectProfileManager">
+   <profile version="1.0">
+     <option name="myName" value="Project Default" />
++    <inspection_tool class="PhpUndefinedMethodInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+     <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+       <option name="processCode" value="true" />
+       <option name="processLiterals" value="true" />
