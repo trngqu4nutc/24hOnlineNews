@@ -17,10 +17,23 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    return view('test');
-});
+Route::get('/login', [
+    'as' => 'login',
+    'uses' => 'AuthController@login'
+]);
 
-//Route::prefix('/admin')->group(function (){
-//
-//});
+Route::post('/login', [
+    'as' => 'login.submit',
+    'uses' => 'AuthController@loginSubmit'
+]);
+
+Route::prefix('/admin')->group(function (){
+    Route::group(array('namespace'=>'Admin'), function()
+    {
+        Route::get('/', [
+            'as' => 'admin.home',
+            'uses' => 'AdminHomeController@index',
+            'middleware' => 'can:admin-home'
+        ]);
+    });
+});
