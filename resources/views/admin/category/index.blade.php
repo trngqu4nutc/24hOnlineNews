@@ -7,8 +7,8 @@
 @section('content')
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
-        @include('partials.content-header', ['name'=>'Quản lý sản phẩm', 'key'=>'Thêm mới', 'url'=>'/products'])
-        <!-- /.content-header -->
+    @include('partials.content-header', ['name'=>'Quản lý sản phẩm', 'key'=>'Thêm mới', 'url'=>'/products'])
+    <!-- /.content-header -->
 
         <!-- Main content -->
         <div class="content">
@@ -57,37 +57,37 @@
                                     </tr>
                                     </thead>
                                     <tbody id="tbl_data">
-{{--                                    @foreach($products as $product)--}}
-                                        <tr>
-                                            <td>id</td>
-                                            <td>name</td>
-                                            <td>price</td>
-                                            <td>
-{{--                                                <img width="100" src="{{ asset($product->feature_image_path) }}"--}}
-{{--                                                     alt="{{ $product->feature_image_name }}"--}}
-{{--                                                />--}}
-                                                img
-                                            </td>
-{{--                                            <td>{{ optional($product->category)->name }}</td>--}}
-                                            <td>category</td>
-                                            <td>
-                                                <a href="#"
-                                                   title="chỉnh sửa"
-                                                   class="btn btn-warning"><i class="fas fa-edit"></i></a>
-                                                <button title="xóa"
-                                                        data-url="#"
-                                                        class="btn_delete btn btn-danger">
-                                                    <i class="far fa-trash-alt"></i>
-                                                </button>
-                                            </td>
-                                        </tr>
-{{--                                    @endforeach--}}
+                                    {{--                                    @foreach($products as $product)--}}
+                                    <tr>
+                                        <td>id</td>
+                                        <td>name</td>
+                                        <td>price</td>
+                                        <td>
+                                            {{--                                                <img width="100" src="{{ asset($product->feature_image_path) }}"--}}
+                                            {{--                                                     alt="{{ $product->feature_image_name }}"--}}
+                                            {{--                                                />--}}
+                                            img
+                                        </td>
+                                        {{--                                            <td>{{ optional($product->category)->name }}</td>--}}
+                                        <td>category</td>
+                                        <td>
+                                            <a href="#"
+                                               title="chỉnh sửa"
+                                               class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                            <button title="xóa"
+                                                    data-url="#"
+                                                    class="btn_delete btn btn-danger">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    {{--                                    @endforeach--}}
                                     </tbody>
                                 </table>
                             </div>
                             <!-- /.card-body -->
                             <div class="card-footer">
-{{--                                {{ $products->links() }}--}}
+                                {{--                                {{ $products->links() }}--}}
                             </div>
                         </div>
                     </div>
