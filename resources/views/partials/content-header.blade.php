@@ -1,15 +1,15 @@
-<div class="content-header">
-    <div class="container-fluid">
-        <div class="row mb-2">
-            <div class="col-sm-6">
-                <h1 class="m-0 text-dark">{{ $name }}</h1>
-            </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box d-flex align-items-center justify-content-between">
+            <h4 class="mb-0 font-size-18">{{ $name }}</h4>
+
+            <div class="page-title-right">
+                <ol class="breadcrumb m-0">
                     <li class="breadcrumb-item"><a href="{{ $url }}">{{ $name }}</a></li>
                     <li class="breadcrumb-item active">{{ $key }}</li>
                 </ol>
-            </div><!-- /.col -->
-        </div><!-- /.row -->
-    </div><!-- /.container-fluid -->
+            </div>
+
+        </div>
+    </div>
 </div>

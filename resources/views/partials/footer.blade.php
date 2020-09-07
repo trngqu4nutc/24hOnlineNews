@@ -1,8 +1,14 @@
-<footer class="main-footer">
-    <!-- To the right -->
-    <div class="float-right d-none d-sm-inline">
-        Anything you want
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <script>document.write(new Date().getFullYear())</script> © Skote.
+            </div>
+            <div class="col-sm-6">
+                <div class="text-sm-right d-none d-sm-block">
+                    Design & Develop by Themesbrand
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Default to the left -->
-    <strong>Copyright &copy; 2014-2019 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
 </footer>
